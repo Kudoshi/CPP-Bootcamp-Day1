@@ -1,12 +1,12 @@
 # The binary this exercise builds
-NAME := ex00
+NAME := ex01
 
 # Compiler and the gauntlet's mandatory flags
 CXX      := c++
 CXXFLAGS := -Wall -Wextra -Werror -std=c++17
 
 # List every .cpp file in the exercise here
-SRCS := main.cpp Vec2.cpp
+SRCS := main.cpp Timer.cpp
 OBJS := $(SRCS:.cpp=.o)
 
 # `make` / `make all`: build the binary
